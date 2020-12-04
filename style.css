@@ -1,4 +1,87 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Century Gothic B';
+  src: url('fonts/gothicb.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/GOTHIC.TTF')  format('truetype');
+}
+
+
 .section {
-    text-align:center;
-    font-size: 3em;
-  }
+  text-align:center;
+  font-size: 3em;
+}
+.s-1__wrapper {
+  background-image: url('assets/slide1/shadow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(63, 190, 219);
+}
+.s-1__h1-text {
+  text-align: center;
+  color: white;
+  font-family: 'Century Gothic B',  sans-serif;
+  font-size: 37px;
+}
+.black-text {
+  color: black;
+}
+.s-1__p-text {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Century Gothic', sans-serif;
+}
+.bold-text {
+  font-family: 'Century Gothic B', sans-serif;
+}
+.s-1__image-div {
+  margin: 0 auto;
+  width: fit-content;
+  display: block;
+  position: relative;
+}
+.s-1__image {
+  margin-top: 20px;
+  width: 300px;
+}
+.sparkle {
+  position: absolute; 
+  display: block;
+  animation-name: sparkle;
+  animation-iteration-count: infinite;
+}
+@keyframes sparkle {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0;}
+}
+.s-1__sparkle-top-left {
+  top: 85px;
+  left: 0;
+  animation-duration: 1.8s;
+  animation-delay: 1s;
+}
+.s-1__sparkle-bottom-left {
+  top: 270px;
+  left: 10px;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+.s-1__sparkle-top-right {
+  right: -50px;
+  top: 30px;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+.s-1__logo,
+.s-1__h1-text,
+.s-1__p-text,
+.s-1__image-div {
+  opacity: 0;
+  transition: .8s opacity ease;
+}
