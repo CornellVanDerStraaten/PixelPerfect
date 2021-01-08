@@ -85,3 +85,181 @@
   opacity: 0;
   transition: .8s opacity ease;
 }
+
+.s-2__wrapper {
+  background-image: url('assets/slide2/degrader1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(115, 32, 74);
+}
+.s-2__positioner {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-family: 'Century Gothic B', sans-serif;
+  margin-top: 120px !important;
+}
+.s-2__sparkle-slot-top-left {
+  top: -15px;
+  left: 136px;
+  animation-duration: 1.8s;
+  animation-delay: 1s;
+}
+.s-2__sparkle-bottom-left {
+  top: 185px;
+  left: 180px;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+.s-2__sparkle-handle {
+  right: 162px;
+  top: 13px;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+.sparkle-slots {
+  position: absolute; 
+  display: block;
+  animation-name: sparkle-slots;
+  animation-iteration-count: infinite;
+  z-index: 4;
+}
+@keyframes sparkle-slots {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0;}
+}
+
+#fp-nav > ul > li > a > span {
+  background: white !important;
+}
+#fp-nav > ul > li > a > span:hover {
+  border: solid 2px white !important;
+  background: transparent !important;
+}
+.s-2__bird-gif {
+  position: absolute;
+  top: -100px;
+  right: -50px;
+}
+.s-2__flash-gif {
+  position: absolute;
+  top: -164px;
+  z-index: 1;
+  right: 205px;
+}
+.slot-machine {
+  z-index: 2;
+  position: relative;
+}
+.s-2__top-text {
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  opacity: 0;
+  transition: 1.5s;
+}
+.s-2__bottom-text {
+  font-size: 14px;
+  color: #f3c81a ;
+  font-weight: 400;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.s-3__wrapper {
+  background-image: url('assets/slide3/degrader5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(242, 200, 26);
+}
+.s-3__positioner {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-family: 'Century Gothic B', sans-serif;
+}
+.s-3__coffee-pots {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.s-3__coffee-pot {
+  height: 420px;
+}
+.s-3__smoke {
+  position: absolute;
+  top: -112px;
+}
+.s-3__smoke1 {
+  left: 120px;
+}
+.s-3__smoke2 {
+  right: 130px;
+}
+.s-3__top-text {
+  font-size: 36px;
+  color: rgb(59, 40, 19);
+  margin: 0;
+  opacity: 0;
+  transition: 1.5s;
+}
+.s-3__bottom-text {
+  font-size: 14px;
+  color: rgb(59, 40, 19);
+  font-weight: 400;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.s-4__wrapper {
+  background-image: url('assets/slide4/degrader3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(242, 151, 25);
+  font-family: 'Century Gothic B', sans-serif;
+
+}
+.s-4__positioner {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.s-4__top-text {
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  opacity: 0;
+  transition: 1.5s;
+}
+.s-4__bottom-text {
+  font-size: 14px;
+  color: rgb(59, 40, 19);
+  font-weight: 400;
+  opacity: 0;
+  transition: 1.5s;
+}
+.desktop {
+  height: 450px;
+}
+.to-position {
+  position: absolute;
+}
+.arrow {
+  top: 100px !important;
+  width: 100px;
+  left: 110px;
+}
+.thumb {
+  left: 412px;
+  width: 90px;
+  top: 140px !important;
+}
+.online {
+  top: 170px !important;
+  left: 80px;
+  width: 270px;
+}
